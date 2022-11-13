@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify Home link tab in the Homepage is available to access Home page",
+        "description": "",
+        "id": "this-is-to-validate-homepage-headers-functionality;verify-home-link-tab-in-the-homepage-is-available-to-access-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 594819300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch camp \"\u003cURL\u003e\" application",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 13
+                }
+              ],
+              "location": "headersCamp.launch_camp_application(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6258540900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Home button in Homepage",
+            "match": {
+              "location": "headersCamp.click_on_Home_button_in_Homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 399810400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify Home page is accessible to the user",
+            "match": {
+              "location": "headersCamp.verify_Home_page_is_accessible_to_the_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@runs"
+          }
+        ]
+      }
+    ],
+    "name": "This is to validate Homepage Headers functionality",
+    "description": "",
+    "id": "this-is-to-validate-homepage-headers-functionality",
+    "keyword": "Feature",
+    "uri": "headersCamp.feature"
+  }
+]
